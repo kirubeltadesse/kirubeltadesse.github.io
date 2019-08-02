@@ -16,7 +16,7 @@
 title: Kirubel Tadesse
 email: ktadesse@purdue.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Interested in Data Science, Swarm Robotics, and neural network. Master's focus area is Computer Engineering. Currently working on topics like Artificial Intelligence (AI), Deep Learning, Machine Language, and neural network( CNN, RNN, and MLP).
+  Interested in Data Science, Swarm Robotics, and deep learning. Master's focus area is Computer Engineering. Currently working on topics like Artificial Intelligence (AI), Deep Learning, Machine Language, and neural network( CNN, RNN, and MLP).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kirubelmel
