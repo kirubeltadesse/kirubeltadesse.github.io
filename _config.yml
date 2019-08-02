@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kirubelmel
 github_username:  kirubeltadesse
+linkedin_username: kirubeltadesse
 
 # Build settings
 sass:
@@ -29,7 +30,7 @@ include: ['resume']
 markdown: kramdown
 kramdown:
   input: GFM
-theme: minima #jekyll-theme-cayman
+theme: minima #jekyll-theme-cayman #jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
