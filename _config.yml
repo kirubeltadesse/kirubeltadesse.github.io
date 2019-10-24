@@ -13,17 +13,39 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+#google_analytics: G-DD12MSVZTZ
+#youtube_username: kiyamelak
+#{% if site.google_analytics and jekyll.environment == 'production' %}
+#{% include analytics.html %}
+#{% endif %}
 title: Kirubel Tadesse
 email: ktadesse@purdue.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  I am interested in data science, swarm robotics, and deep learning. Master's focus area is Computer Engineering. I am currently working on topics like Artificial Intelligence (AI), Deep Learning, Machine Language, and neural network( CNN, RNN, and MLP) about irrigation models.
+  I am interested in data science, swarm robotics, and deep learning. Master's focus area is Computer Engineering. I am currently working on topics like Artificial Intelligence (AI), Deep Learning, Machine Language, and neural networks (CNN, RNN, and MLP) about irrigation models.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kirubelmel
 github_username:  kirubeltadesse
 linkedin_username: kirubeltadesse
 stackoverflow_username: 4990583/kirubel-tadesse
-#youtube_username: kiyamelak
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-150915906-1          # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+
+#  Matomo:                   # Add, if you want to track with Matomo (former Piwik Analytics)
+#    url: https://kirubeltadesse.github.io/ # Required - url to Matomo installation without trailing /
+#    siteId: "G-DD12MSVZTZ"          # Required - replace with your Matomo site id (Write id as string)
+#
+#  Piwik:                    # Add, if you want to track with Piwik
+#    url: piwik.example.com  # Required - url to Piwik installation without trailing /
+#    siteId: "1234"          # Required - replace with your Piwik site id (Write id as string)
+
+#  MPulse:                   # Add if you want to track performance with mPulse
+#    apikey: XXXXX-YYYYY-ZZZZZ-AAAAA-23456   # Required - replace with your mPulse API key
+# Google Analytics
+
 
 # Build settings
 sass:
@@ -35,7 +57,7 @@ kramdown:
 theme: minima #jekyll-theme-cayman #jekyll-theme-minimal
 plugins:
   - jekyll-feed
-
+  - jekyll-analytics
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
