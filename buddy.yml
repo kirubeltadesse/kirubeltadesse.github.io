@@ -1,0 +1,11 @@
+- pipeline: "Build and Deploy Jekyll site"
+  trigger_mode: "ON_EVERY_PUSH"
+  ref_name: "master"
+  actions:
+  - action: "Execute: jekyll build"
+    type: "BUILD"
+    docker_image_name: "jekyll/jekyll"
+    docker_image_tag: "latest"
+    execute_commands:
+    - "chown jekyll:jekyll $WORKING_DIR"
+    - "jekyll build"
