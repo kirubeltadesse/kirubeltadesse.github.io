@@ -19,20 +19,20 @@
 #{% include analytics.html %}
 #{% endif %}
 title: Kirubel Tadesse
-email: ktadesse@purdue.edu
+# email: ktadesse@purdue.edu
 description: >- # this means to ignore newlines until "baseurl:"
   I am interested in data science, swarm robotics, and deep learning. Master's focus area is Computer Engineering. I am currently working on topics like Artificial Intelligence (AI), Deep Learning, Machine Language, and neural networks (CNN, RNN, and MLP) about irrigation models.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kirubelmel
-github_username:  kirubeltadesse
+github_username: kirubeltadesse
 linkedin_username: kirubeltadesse
 stackoverflow_username: 4990583/kirubel-tadesse
 
 jekyll_analytics:
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-150915906-1          # Required - replace with your tracking id
-    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+  GoogleAnalytics: # Add, if you want to track with Google Analytics
+    id: UA-150915906-1 # Required - replace with your tracking id
+    anonymizeIp: false # Optional - Default: false - set to true for anonymized tracking
 
 #  Matomo:                   # Add, if you want to track with Matomo (former Piwik Analytics)
 #    url: https://kirubeltadesse.github.io/ # Required - url to Matomo installation without trailing /
@@ -46,11 +46,10 @@ jekyll_analytics:
 #    apikey: XXXXX-YYYYY-ZZZZZ-AAAAA-23456   # Required - replace with your mPulse API key
 # Google Analytics
 
-
 # Build settings
 sass:
   sass_dir: _sass
-include: ['resume']
+include: ["resume"]
 markdown: kramdown
 kramdown:
   input: GFM

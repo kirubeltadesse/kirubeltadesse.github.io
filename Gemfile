@@ -6,13 +6,15 @@ source "https://rubygems.org"
 #
 #     jekyll build  - Performs a one off huild your site to
 #     bundle exec jekyll serve
-#     jekyll serve - Builds your site anytime a source file changes and serves it locally
+#     jekyll serve  -- Builds your site anytime a source file changes and serves it locally
+#     jekyll serve --port 4001 --host
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.8.6"
+gem "jekyll", "~> 3.9"
+gem "kramdown-parser-gfm"
 gem 'jekyll-analytics'
-
+gem "webrick"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
 gem "jekyll-theme-minimal"
