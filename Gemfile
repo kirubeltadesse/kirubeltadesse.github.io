@@ -6,7 +6,8 @@ source "https://rubygems.org"
 #
 #     jekyll build  - Performs a one off huild your site to
 #     bundle exec jekyll serve
-#     jekyll serve - Builds your site anytime a source file changes and serves it locally
+#     jekyll serve  -- Builds your site anytime a source file changes and serves it locally
+#     jekyll serve --port 4001 --host
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
