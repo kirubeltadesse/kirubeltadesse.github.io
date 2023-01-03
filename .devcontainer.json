@@ -17,15 +17,20 @@
   "workspaceFolder": "/workspace",
 
   // Set *default* container specific settings.json values on container create.
-  "settings": {},
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "grammarly.files.include": ["**/*.md", "**/*.txt"]
+  },
 
   // Add the IDs of extensions you want installed when the container is created.
   "extensions": [
+    "gruntfuggly.todo-tree",
+    "znck.grammarly",
     "github.copilot",
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
-    "wix.vscode-import-cost",
-    "gruntfuggly.todo-tree"
+    "wix.vscode-import-cost"
   ]
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
