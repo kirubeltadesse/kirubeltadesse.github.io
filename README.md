@@ -12,3 +12,5 @@ file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 
 This will help ensure the proper Jekyll version is running.
 Happy Jekylling!
+
+Note: general configuration is in `_config.yml` and the theme is in `_layouts/default.html`
