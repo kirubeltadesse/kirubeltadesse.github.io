@@ -35,7 +35,7 @@ During my undergraduate program at Jackson State University, I participated in p
 Du Bois Honors College, IEEE, Writing Center Peer Tutor, and NSBE, and I led JSU’s NASA Swarmathon and CodeZone teams. Also,
 I contributed with Dr. Malernie Moses from the University of New Mexico on swarm robotics.
 
-#### Educational Achivement
+### Educational Achievements
 
 - Master's in Electrical & Computer Engineering
 - Graduated with Bachelor of Science, Computer Engineering 3.91 GPA
@@ -46,12 +46,25 @@ I contributed with Dr. Malernie Moses from the University of New Mexico on swarm
 
 - Graduate Research Assistant at [Visual Analytics Lab](https://www.purdue.edu/discoverypark/vaccine/team/students.php)
 
+| Porfolio                                                 |
+| -------------------------------------------------------- |
+| [TWC Experience]({{ site.url }}/assets/twcportfolio.pdf) |
+| [P3strategies]({{ site.url }}/assets/portfolio.pdf)      |
+|                                                          |
+
+| NASA Swarmathon                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------- |
+| [Final presentation](https://prezi.com/1o77flmglkuu/summer-research-at-unm/?utm_campaign=share&utm_medium=copy)  |
+| [poster]({{ site.url }}/assets/poster.pdf)                                                                      |
+| [Extended Abstract]({{ site.url }}/assets/iros-extended-abestract_2.pdf)                                        |
+
 <!--
 TODO: here are things to add to the about page
 Graduate school projects
 - CAM2
 - Purdue Vaccine
 - SparcLab Projects
+
 Machine Learning works
 - Machine Learning (link to Google Colab)
 Undergraduate projects
@@ -63,12 +76,4 @@ Undergraduate projects
 - TWC Experience
 - GoogleIgnite CS
 - JSU Research
-
-
-  -->
-
-| Porfolio                                                 | NASA Swarmathon                                                                                                 |
-| -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| [TWC Experience]({{ site.url }}/assets/twcportfolio.pdf) | [Final presentation](https://prezi.com/1o77flmglkuu/summer-research-at-unm/?utm_campaign=share&utm_medium=copy) |
-| [P3strategies]({{ site.url }}/assets/portfolio.pdf)      | [poster]({{ site.url }}/assets/poster.pdf)                                                                      |
-|                                                          | [Extended Abstract]({{ site.url }}/assets/iros-extended-abestract_2.pdf)                                        |
+-->
