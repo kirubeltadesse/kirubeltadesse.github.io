@@ -1,10 +1,8 @@
 ---
-layout: default
-title: About
+layout: page
+title: Background
 permalink: /about/
 ---
-
-## Background
 
 Growing up in a country with a rich history and numerous socio-economic problems made me set a goal in my life early on.
 I dreamt of becoming the prime minister of Ethiopia as I thought problems could only be solved through politics. However,
@@ -54,7 +52,7 @@ I contributed with Dr. Malernie Moses from the University of New Mexico on swarm
 
 | NASA Swarmathon                                                                                                 |
 | --------------------------------------------------------------------------------------------------------------- |
-| [Final presentation](https://prezi.com/1o77flmglkuu/summer-research-at-unm/?utm_campaign=share&utm_medium=copy)  |
+| [Final presentation](https://prezi.com/1o77flmglkuu/summer-research-at-unm/?utm_campaign=share&utm_medium=copy) |
 | [poster]({{ site.url }}/assets/poster.pdf)                                                                      |
 | [Extended Abstract]({{ site.url }}/assets/iros-extended-abestract_2.pdf)                                        |
 
