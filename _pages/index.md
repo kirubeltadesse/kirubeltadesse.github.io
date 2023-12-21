@@ -9,7 +9,7 @@ permalink: /
 ## Graduate Research
 
 <div class="container">
-  <img src="/img/cover_pic.png" width="100%" align="center" alt="" />
+  <img src="/assets/img/cover_pic.png" width="100%" align="center" alt="" />
 </div>
 
 ### Graduate Research Assistantship at [Purdue University](https://www.purdue.edu/)
@@ -31,7 +31,7 @@ forum and graded homework and tests.
 ### Highlighting Undergraduate Research
 
 <div class="container">
-    <img src="/img/rover_orig.png" width="100%" align="center" alt="" />
+    <img src="/assets/img/rover_orig.png" width="100%" align="center" alt="" />
 </div>
 
 NASA Swarmathon involves university and community college students to participate in virtual and/or physical robotics competition.
@@ -43,11 +43,11 @@ resulted in a partnership with NASA to further advance the search algorithms to 
 
 <div class="row">
   <div class="col">
-      <img src="/img/tag_orig.jpg" width="100%" align="center" alt="" />
+      <img src="assets/img/tag_orig.jpg" width="100%" align="center" alt="" />
   </div>
   <div class="col">
     APRIL TAG CUBE
-    NASA Swarmathon will be using the gripper to collect the April tag cube in the upcoming competition. <a href="http://nasaswarmathon.com/">LEARN MORE</a>
+    NASA Swarmathon will be using the gripper to collect the April tag cube in the upcoming competition. <a href="https://robotics.nasa.gov/swarmathon-improves-student-skills-in-robotics-computer-science/">LEARN MORE</a>
   </div>
 </div>
 
@@ -58,13 +58,13 @@ resulted in a partnership with NASA to further advance the search algorithms to 
     <a href="{{ site.url }}/assets/poster.pdf">LEARN MORE</a>
   </div>
  <div class="col">
-    <img src="/img/2016-06-19-14-30-39_orig.jpg" width="100%" align="center" alt="" />
+    <img src="/assets/img/2016-06-19-14-30-39_orig.jpg" width="100%" align="center" alt="" />
     </div>
 </div>
 
 <div class=row>
   <div class="col">
-      <img src="/img/img-0115_orig.jpg" width="100%" align="center" alt="" />
+      <img src="/assets/img/img-0115_orig.jpg" width="100%" align="center" alt="" />
   </div>
   <div class="col">
   ACTIVITIES

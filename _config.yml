@@ -122,7 +122,7 @@ google_analytics: UA-150915906-1 # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # your blog must have a name for it to show up in the nav bar
+blog_name: kirubeltadesse # your blog must have a name for it to show up in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
@@ -133,7 +133,7 @@ pagination:
   paginate_path: "/blog/page:num"
 
 # Comments
-# disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: kiya # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
