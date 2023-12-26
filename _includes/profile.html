@@ -11,7 +11,7 @@ layout: page
       class="profile float-{%- if profile.align == 'left' -%}left{%- else -%}right{%- endif -%}"
     >
       {%- if profile.image %} {%- assign profile_image_path = profile.image |
-      prepend: 'assets/img/' -%} {% if profile.image_circular %} {%- assign
+      prepend: '/assets/img/' -%} {% if profile.image_circular %} {%- assign
       profile_image_class = "img-fluid z-depth-1 rounded-circle" -%} {% else %}
       {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%} {%
       endif %} {% include figure.html path=profile_image_path

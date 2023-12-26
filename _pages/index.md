@@ -6,7 +6,8 @@ title: about
 permalink: /
 profile:
   align: right
-  image: /assets/img/profile_pic.jpg
+  image: profile.jpg
+  image_alt: Kirubel Tadesse
   address: |
     Located at Laughton <br>
     Essex, UK<br>
