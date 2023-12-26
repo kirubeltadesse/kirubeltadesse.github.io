@@ -6,7 +6,7 @@ title: about
 permalink: /
 profile:
   align: right
-  image: /assets/img/profile_pic.jpg
+  image: "/assets/img/profile.jpg"
   address: |
     Located at Laughton <br>
     Essex, UK<br>
