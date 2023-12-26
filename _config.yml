@@ -19,8 +19,9 @@ youtube_username: kiyamelak
 # {% include analytics.html %}
 # {% endif %}
 title: Kirubel Tadesse
-# TODO: update the right email
-# email: ktadesse@purdue.edu
+first_name: Kirubel
+last_name: Tadesse
+email: kirubel.m.tadesse@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am interested in data science, swarm robotics, and deep learning. Master's focus area is Computer Engineering. I am currently working on topics like Artificial Intelligence (AI), Deep Learning, Machine Language, and neural networks (CNN, RNN, and MLP) about irrigation models.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -66,6 +67,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# TODO: fix the footer>
 footer_text: >
       <p>I am interested in data science, swarm robotics, and deep learning. Master's focus area is
           Computer Engineering. I am currently working on topics like Artificial Intelligence (AI), Deep
@@ -128,7 +131,7 @@ permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: false
+  enabled: true
   paginate: 5
   paginate_path: "/blog/page:num"
 
@@ -227,13 +230,14 @@ academicons:
   version: "1.9.0"
   integrity: "sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg=="
 bootstrap:
-  version: "4.5.2"
+  version: "5.3.0"
   integrity:
     css: "sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg=="
     js: "sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ=="
 fontawesome:
-  version: "5.14.0"
+  version: "6.5.1"
   integrity: "sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+  name: "abcbc4277b"
 jquery:
   version: "3.5.1"
   integrity: "sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="

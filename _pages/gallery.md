@@ -5,11 +5,6 @@ inline: true
 permalink: /gallery/
 ---
 
-<!--
-the class ["col-sm-4" "col-sm-8"] will result in 1/2  ...
-rename the caption and image titles in the page
- -->
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/image3.jpg' | relative_url }}" alt="" title="lunch at Ethiopian Researent at Ann Arbor, Michigan"/>

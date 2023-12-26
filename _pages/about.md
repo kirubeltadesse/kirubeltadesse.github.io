@@ -42,6 +42,8 @@ I contributed with Dr. Malernie Moses from the University of New Mexico on swarm
 
 #### Research
 
+<!-- TODO: add links to the research pages and move them to the right place -->
+
 - Graduate Research Assistant at [Visual Analytics Lab](https://www.purdue.edu/discoverypark/vaccine/team/students.php)
 
 | Porfolio                                                 |
@@ -55,23 +57,3 @@ I contributed with Dr. Malernie Moses from the University of New Mexico on swarm
 | [Final presentation](https://prezi.com/1o77flmglkuu/summer-research-at-unm/?utm_campaign=share&utm_medium=copy) |
 | [poster]({{ site.url }}/assets/poster.pdf)                                                                      |
 | [Extended Abstract]({{ site.url }}/assets/iros-extended-abestract_2.pdf)                                        |
-
-<!--
-TODO: here are things to add to the about page
-Graduate school projects
-- CAM2
-- Purdue Vaccine
-- SparcLab Projects
-
-Machine Learning works
-- Machine Learning (link to Google Colab)
-Undergraduate projects
-- NASA Swarmathon
-- P3strategies
-    * Web Development and design
-    * Data Analysis and Visualization
-    * Software Development
-- TWC Experience
-- GoogleIgnite CS
-- JSU Research
--->

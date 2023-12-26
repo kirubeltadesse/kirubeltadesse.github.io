@@ -5,13 +5,12 @@
     class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}"
   >
     <div class="container">
-      <a
-        class="navbar-brand title font-weight-lighter"
-        href="https://kirubeltadesse.github.io/"
-        ><span class="font-weight-bold">Kirubel</span> Tadesse</a
-      >
+      {% if page.title == "about" %}
+      <div class="navbar-brand title font-weight-bold">
+        {% include social.html %}
+      </div>
 
-      {% if page.title != "about" %}
+      {% elsif page.title != "about" %}
       <a
         class="navbar-brand title font-weight-lighter"
         href="{{ site.baseurl | prepend: site.url }}/"
@@ -49,8 +48,10 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Spencer Pao | Data Science</title>
-        <meta name="author" content="Spencer  Pao" />
+        <title>
+          {{ site.first_name }} {{ site.last_name }}| Artificial Intelligence
+        </title>
+        <meta name="author" content="Kirubel Tadesse" />
         <meta
           name="description"
           content="Encompasses Data Science applications"
@@ -136,6 +137,16 @@
             </a>
           </li>
 
+          <!-- Projects -->
+          <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/projects/' | relative_url }}">
+              projects {% if page.title == "projects" %}
+              <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
+
+          <!-- Gallery -->
           <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
             <a class="nav-link" href="{{ '/gallery/' | relative_url }}">
               gallery {% if page.title == "gallery" %}
@@ -144,6 +155,7 @@
             </a>
           </li>
 
+          <!-- Contact -->
           <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
             <a class="nav-link" href="{{ '/contact/' | relative_url }}">
               contact {% if page.title == "contact" %}
@@ -152,7 +164,7 @@
             </a>
           </li>
 
-          {% if site.blog_name %}
+          <!-- {% if site.blog_name %} -->
           <!-- Blog
           <li
             class="nav-item {% if page.url contains 'blog' %}active{% endif %}"
@@ -165,7 +177,7 @@
           </li>
           {% endif %} -->
           <!-- Other pages -->
-          {% assign sorted_pages = site.pages | sort: "title" %} {% for p in
+          <!-- {% assign sorted_pages = site.pages | sort: "title" %} {% for p in
           sorted_pages %} {% if p.nav and p.autogen == nil %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
             <a class="nav-link" href="{{ p.url | relative_url }}">
@@ -173,7 +185,7 @@
               <span class="sr-only">(current)</span>
               {% endif %}
             </a>
-          </li>
+          </li> -->
           {% endif %} {% endfor %} {% if site.enable_darkmode %}
           <div class="toggle-container">
             <a id="light-toggle">
