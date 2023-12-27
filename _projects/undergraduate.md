@@ -29,9 +29,11 @@ resulted in a partnership with NASA to further advance the search algorithms to 
     </div>
 </div>
 
+---
+
 <div class="row">
   <div class="col">
-      <img src="assets/img/tag_orig.jpg" width="100%" align="center" alt="" />
+    <img src="assets/img/tag_orig.jpg" width="100%" align="center" alt="" />
   </div>
   <div class="col">
     APRIL TAG CUBE
@@ -45,23 +47,32 @@ resulted in a partnership with NASA to further advance the search algorithms to 
     Poster presentation on RSS - Robots Science and Systems- Swarmathon workshop. I presented part of the summer research I was doing at the University of New Mexico.
     <a href="{{ site.url }}/assets/poster.pdf">LEARN MORE</a>
   </div>
- <div class="col">
+  <div class="col">
     <img src="/assets/img/2016-06-19-14-30-39_orig.jpg" width="100%" align="center" alt="" />
-    </div>
+  </div>
 </div>
 
 <div class=row>
   <div class="col">
-      <img src="/assets/img/img-0115_orig.jpg" width="100%" align="center" alt="" />
+    <img src="/assets/img/img-0115_orig.jpg" width="100%" align="center" alt="" />
   </div>
   <div class="col">
   ACTIVITIES
   My DREU experience was really well-rounded. I get to experience nature during my time at the University of New Mexico.
   I played soccer every weekend almost. I want on hiking and white water rafting.
   <a href="http://www.newmexicoriveradventures.com/">LEARN MORE</a>
-
   </div>
 </div>
+
+---
+
+#### Paper and Presentation Documents
+
+|                         Porfolio                         | NASA Swarmathon                                                                                                 |
+| :------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------- |
+| [TWC Experience]({{ site.url }}/assets/twcportfolio.pdf) | [Final presentation](https://prezi.com/1o77flmglkuu/summer-research-at-unm/?utm_campaign=share&utm_medium=copy) |
+|   [P3strategies]({{ site.url }}/assets/portfolio.pdf)    | [poster]({{ site.url }}/assets/poster.pdf)                                                                      |
+|                                                          | [Extended Abstract]({{ site.url }}/assets/iros-extended-abestract_2.pdf)                                        |
 
 <!--
 TODO: here are things to add
