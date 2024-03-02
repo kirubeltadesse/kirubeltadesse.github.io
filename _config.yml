@@ -21,7 +21,7 @@ youtube_username: kiyamelak
 title: Kirubel Tadesse
 first_name: Kirubel
 last_name: Tadesse
-email: kirubel.m.tadesse@gmail.com
+email: kiyamelak@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am interested in data science, swarm robotics, and deep learning. Master's focus area is Computer Engineering. I am currently working on topics like Artificial Intelligence (AI), Deep Learning, Machine Language, and neural networks (CNN, RNN, and MLP) about irrigation models.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -70,9 +70,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # TODO: fix the footer>
 footer_text: >
-      <p>I am interested in data science, swarm robotics, and deep learning. Master's focus area is
-          Computer Engineering. I am currently working on topics like Artificial Intelligence (AI), Deep
-          Learning, Machine Language, and neural networks (CNN, RNN, and MLP) about irrigation models.</p>
+      <p>I am interested in data science, artificial Intelligence, and swarmie robotics. I am currently actively participating in AI topics. If you are interested, please reach out</p>
 
 
 # url:  # the base hostname & protocol for your site
@@ -108,7 +106,7 @@ linkedin_username: kirubeltadesse
 stackoverflow_username: 4990583/kirubel-tadesse
 # scholar_userid: # your Google Scholar ID
 # orcid_id: # your ORCID ID
-# medium_username: # your Medium username
+medium_username: kiyamelak
 # quora_username: # your Quora username
 # publons_id: # your ID on Publons
 # research_gate_profile: # your profile on ResearchGate
@@ -235,9 +233,8 @@ bootstrap:
     css: "sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg=="
     js: "sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ=="
 fontawesome:
-  version: "6.5.1"
+  version: "5.14.0"
   integrity: "sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-  name: "abcbc4277b"
 jquery:
   version: "3.5.1"
   integrity: "sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
