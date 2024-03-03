@@ -24,14 +24,7 @@
   },
 
   // Add the IDs of extensions you want installed when the container is created.
-  "extensions": [
-    "gruntfuggly.todo-tree",
-    "znck.grammarly",
-    "github.copilot",
-    "esbenp.prettier-vscode",
-    "dbaeumer.vscode-eslint",
-    "wix.vscode-import-cost"
-  ]
+  "extensions": ["gruntfuggly.todo-tree", "znck.grammarly", "github.copilot", "esbenp.prettier-vscode", "dbaeumer.vscode-eslint", "wix.vscode-import-cost"]
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],

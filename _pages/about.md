@@ -21,7 +21,8 @@ Engineering, to me, is ensuring that a product is meeting the form, function, an
 a Research Assistant at Visualization Lab, my daily goal is to not only build visualizations but also make sure that my
 code and everyone within my team is using an object-oriented programming approach. Being a team leader on the development
 side, I navigate my team through the design process to address technical challenges with the right solutions. Therefore,
-I have a highly effective capability to communicate professionally to a diverse group through listening, lending ideas, and implementing solutions.
+I have a highly effective capability to communicate professionally to a diverse group through listening, lending ideas,
+and implementing solutions.
 
 Having interned in the NASA Swarmathon research, large-scale interdisciplinary research at the University of New Mexico
 in conjunction with NASA, I developed a transform package in C++ using a simple math concept called a similar triangle. I
