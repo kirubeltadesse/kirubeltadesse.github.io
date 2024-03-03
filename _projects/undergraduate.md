@@ -83,7 +83,16 @@ resulted in a partnership with NASA to further advance the search algorithms to 
 
 <div class=row>
   <div class="col">
-    <a href="{{ site.url }}/assets/poster.pdf">  P3strategies </a>
+    <a href="{{ site.url }}/assets/portfolio.pdf">  P3strategies </a>
+  </div>
+
+  <div class="col">
+    <a href="{{ site.url }}/assets/poster.pdf">  Poster</a>
+  </div>
+</div>
+
+<div class=row>
+  <div class="col">
   </div>
 
   <div class="col">
