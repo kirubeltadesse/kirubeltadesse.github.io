@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     {% include head.html %} {% include scripts/mathjax.html %}
@@ -17,11 +17,10 @@
 
     <!-- Footer -->
 
-    </div>
-    {% include analytics.html %}
-    {% include footer.html %}
+    {% include analytics.html %} {% include footer.html %}
   </body>
 
-  {% include scripts/jquery.html %} {% include scripts/bootstrap.html %} {%
-  include scripts/mansory.html %} {% include scripts/misc.html %}
+  {% include scripts/jquery.html %} {% include scripts/bootstrap.html %}
+  {% include scripts/mansory.html %}
+  {% include scripts/misc.html %}
 </html>

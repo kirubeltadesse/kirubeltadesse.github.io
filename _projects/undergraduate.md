@@ -68,11 +68,28 @@ resulted in a partnership with NASA to further advance the search algorithms to 
 
 #### Paper and Presentation Documents
 
-|                         Porfolio                         | NASA Swarmathon                                                                                                 |
-| :------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------- |
-| [TWC Experience]({{ site.url }}/assets/twcportfolio.pdf) | [Final presentation](https://prezi.com/1o77flmglkuu/summer-research-at-unm/?utm_campaign=share&utm_medium=copy) |
-|   [P3strategies]({{ site.url }}/assets/portfolio.pdf)    | [poster]({{ site.url }}/assets/poster.pdf)                                                                      |
-|                                                          | [Extended Abstract]({{ site.url }}/assets/iros-extended-abestract_2.pdf)                                        |
+<div class=row>
+  <div class="col title"> Porfolio</div>
+  <div class="col title"> NASA Swarmathon </div>
+</div>
+<div class=row>
+  <div class="col">
+    <a href="{{ site.url }}/assets/twcportfolio.pdf"> TWC Experience </a>
+  </div>
+  <div class="col">
+    <a href="https://prezi.com/1o77flmglkuu/summer-research-at-unm/?utm_campaign=share&utm_medium=copy"> Final presentation </a>
+  </div>
+</div>
+
+<div class=row>
+  <div class="col">
+    <a href="{{ site.url }}/assets/poster.pdf">  P3strategies </a>
+  </div>
+
+  <div class="col">
+    <a href="{{ site.url }}/assets/iros-extended-abestract_2.pdf"> Extended Abstract </a>
+  </div>
+</div>
 
 <!--
 TODO: here are things to add

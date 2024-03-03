@@ -8,9 +8,10 @@ profile:
   align: right
   image: profile.jpg
   image_alt: Kirubel Tadesse
+  sub_title: Disciple of Jesus Husband | Father  Software Engineer
   address: |
-    Located at Laughton <br>
-    Essex, UK<br>
+    Located at Laughton
+    Essex, UK
 news: _includes/news.html
 ---
 
@@ -34,4 +35,4 @@ I am always looking for folks who are interested in aiding on ongoing or newly c
     - Explore and implement traditional theories of Anomaly detection
     - Explore and implement quantitative strategies for Anomaly detection
 
-If you have an idea and want to see if I’d be interested in helping, don't hesitate to contact me!
+If you have an idea and want to see if I’d be interested in helping, don't hesitate to get in touch with me!

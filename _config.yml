@@ -68,7 +68,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# TODO: fix the footer>
 footer_text: >
       <p>I am interested in data science, artificial Intelligence, and swarmie robotics. I am currently actively participating in AI topics. If you are interested, please reach out</p>
 

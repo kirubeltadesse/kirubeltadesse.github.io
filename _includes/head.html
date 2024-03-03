@@ -6,26 +6,36 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <title>
-  {% if site.title == blank %} {{ site.title }} {% else %} {{ site.first_name }}
-  {{ site.middle_name }} {{ site.last_name }} {% endif %} {% if page.title and
-  page.url != "/" %} | {{ page.title }} {% endif %}
+  {% if site.title == blank %}
+    {{ site.title }}
+  {% else %}
+    {{ site.first_name }}
+    {{ site.middle_name }}
+    {{ site.last_name }}
+  {% endif %}
+  {%
+    if page.title and
+    page.url != "/"
+  %}
+    | {{ page.title }}
+  {% endif %}
 </title>
 <meta name="description" content="{{ site.description }}" />
 
 <!-- Open Graph -->
 {% if site.serve_og_meta %}
-<meta property="og:site_name" content="{{ site.description }}" />
-<meta property="og:type" content="object" />
-<meta property="og:title" content="{{ site.name }}" />
-<meta
-  property="og:url"
-  content="{{ page.url | prepend: site.baseurl | prepend: site.url }}"
-/>
-<meta property="og:description" content="{{ page.title }}" />
-<meta
-  property="og:image"
-  content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}"
-/>
+  <meta property="og:site_name" content="{{ site.description }}" />
+  <meta property="og:type" content="object" />
+  <meta property="og:title" content="{{ site.name }}" />
+  <meta
+    property="og:url"
+    content="{{ page.url | prepend: site.baseurl | prepend: site.url }}"
+  />
+  <meta property="og:description" content="{{ page.title }}" />
+  <meta
+    property="og:image"
+    content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}"
+  />
 {% endif %}
 
 <!-- Bootstrap & MDB -->
@@ -68,10 +78,10 @@
 />
 
 <!-- Styles -->
-<link
+<!-- <link
   rel="shortcut icon"
   href="{{ '/assets/img/favicon.ico' | relative_url }}"
-/>
+/> -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
 
 <link
@@ -81,20 +91,21 @@
 
 <!-- Theming-->
 {% if site.enable_darkmode %}
-<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
-{% endif %} {% if site.enable_google_analytics %}
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"
-></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
+  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+{% endif %}
+{% if site.enable_google_analytics %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-  gtag("config", "{{ site.google_analytics }}");
-</script>
+    gtag("config", "{{ site.google_analytics }}");
+  </script>
 {% endif %}
