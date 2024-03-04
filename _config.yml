@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-google_analytics: G-DD12MSVZTZ
+google_tags: GTM-5HVW522
 youtube_username: kiyamelak
 # {% if site.google_analytics and jekyll.environment == 'production' %}
 # {% include analytics.html %}
@@ -26,7 +26,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   I am interested in data science, swarm robotics, and deep learning. Master's focus area is Computer Engineering. I am currently working on topics like Artificial Intelligence (AI), Deep Learning, Machine Language, and neural networks (CNN, RNN, and MLP) about irrigation models.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
 
 # jekyll_analytics:
 #   GoogleAnalytics: # Add, if you want to track with Google Analytics
@@ -69,8 +68,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #   - vendor/ruby/
 
 footer_text: >
-      <p>I am interested in data science, artificial Intelligence, and swarmie robotics. I am currently actively participating in AI topics. If you are interested, please reach out</p>
-
+  <p>I am interested in data science, artificial Intelligence, and swarmie robotics. I am currently actively participating in AI topics. If you are interested, please reach out</p>
 
 # url:  # the base hostname & protocol for your site
 # baseurl: /al-folio # the subpath of your site, e.g. /blog/
@@ -114,10 +112,7 @@ medium_username: kiyamelak
 
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
-
-google_analytics: UA-150915906-1 # out your google-analytics code
 #     id: UA-150915906-1 # Required - replace with your tracking id
-
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
@@ -212,7 +207,7 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: true
+enable_google_tags: false
 enable_mansory: true
 enable_math: true
 enable_tooltips: true
