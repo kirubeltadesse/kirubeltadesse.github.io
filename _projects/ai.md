@@ -23,3 +23,5 @@ importance: 1
 Through out my undergraduate, I was actively involved in [robotics work](https://youtu.be/7-twuA5gL-4?si=s-ba2eCZYmQTDOoK). Which naturally lead me to start working with machine learning projects in graduate school.
 
 Currently, I am actively learning different deep learning techniques. Which I will here soon!
+
+Here is a complete notebook for [bird detection]({{ site.url }}/fast.ai/Is_it_a_bird/) work
