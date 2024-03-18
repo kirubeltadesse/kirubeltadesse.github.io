@@ -24,4 +24,5 @@ Through out my undergraduate, I was actively involved in [robotics work](https:/
 
 Currently, I am actively learning different deep learning techniques. Which I will here soon!
 
-Here is a complete notebook for [bird detection]({{ site.url }}/fast.ai/Is_it_a_bird/) work
+
+Here is a complete notebook for [bird detection]({% link _links/fast.ai/bird.md %}) work

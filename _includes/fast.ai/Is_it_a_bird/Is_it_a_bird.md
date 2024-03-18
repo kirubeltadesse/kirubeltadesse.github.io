@@ -1,8 +1,3 @@
----
-layout: page
-permalink: /fast.ai/Is_it_a_bird/
----
-
 ```python
 from fastcore.all import *
 from fastbook import search_images_ddg
@@ -44,10 +39,8 @@ im.to_thumb(256,256)
 
 
     
-![png](output_6_0.jpg)
+![png](/assets/img/fast.ai/birds/output_6_0.png)
     
-
-
 
 
 ```python
@@ -67,7 +60,7 @@ Image.open('forest.jpg').to_thumb(256,256)
 
 
     
-![png](output_8_1.png)
+![png](/assets/img/fast.ai/birds/output_8_1.png)
     
 
 
@@ -137,7 +130,7 @@ dls.show_batch(max_n=6)
 
 
     
-![png](output_15_0.png)
+![png](/assets/img/fast.ai/birds/output_15_0.png)
     
 
 
