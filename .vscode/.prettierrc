@@ -1,0 +1,28 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "jijnjaTrailingComma": "all",
+  "singleQuote": true,
+  "jininjaBracketSpacing": true,
+  "include": ["_includes/**/*.html"],
+  "exclude": ["node_modules", "dist"],
+  "plugins": ["prettier-plugin-jinja-template"],
+  "endOfLine": "lf",
+  "printWidth": 80,
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "quoteProps": "as-needed",
+  "semi": true,
+  "trailingComma": "none",
+  "vueIndentScriptAndStyle": false,
+  "overrides": [
+    {
+      "files": ["*.html"],
+      "options": {
+        "parser": "jinja-template"
+      }
+    }
+  ]
+}
