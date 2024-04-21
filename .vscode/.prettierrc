@@ -1,6 +1,7 @@
 {
   "tabWidth": 2,
   "useTabs": false,
+  "bracketSpacing": true,
   "jijnjaTrailingComma": "all",
   "singleQuote": true,
   "jininjaBracketSpacing": true,
@@ -10,7 +11,6 @@
   "endOfLine": "lf",
   "printWidth": 80,
   "arrowParens": "always",
-  "bracketSpacing": true,
   "jsxBracketSameLine": false,
   "jsxSingleQuote": false,
   "quoteProps": "as-needed",
