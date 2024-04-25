@@ -3,13 +3,11 @@ from fastcore.all import *
 from fastbook import search_images_ddg
 ```
 
-
 ```python
 def search_images(term, max_images=30):
     print(f"Searching for '{term}'")
     return search_images_ddg(term, max_images)
 ```
-
 
 ```python
 urls = search_images('bird photos', max_images=1)
@@ -20,10 +18,7 @@ urls[0]
 
     'https://chilternchatter.com/wp-content/uploads/2018/01/RED-Bird.jpg'
 
-
-
-## Downloading image using the URL 
-
+## Downloading image using the URL
 
 ```python
 from fastdownload import download_url
@@ -35,18 +30,11 @@ im = Image.open(dest)
 im.to_thumb(256,256)
 ```
 
-
-
-
-    
 ![png](/assets/img/fast.ai/birds/output_6_0.png)
-    
-
 
 ```python
 # hide
 ```
-
 
 ```python
 download_url(search_images('forest photos', max_images=1)[0], 'forest.jpg', show_progress=False)
@@ -55,23 +43,13 @@ Image.open('forest.jpg').to_thumb(256,256)
 
     Searching for 'forest photos'
 
-
-
-
-
-    
 ![png](/assets/img/fast.ai/birds/output_8_1.png)
-    
-
-
-
 
 ```python
 searches = 'forest', 'bird'
 path = Path('bird_or_not')
 from time import sleep
 ```
-
 
 ```python
 for o in searches:
@@ -93,9 +71,7 @@ for o in searches:
     Searching for 'bird sun photo'
     Searching for 'bird shade photo'
 
-
-## Step 2: Train our model 
-
+## Step 2: Train our model
 
 ```python
 failed = verify_images(get_image_files(path))
@@ -103,15 +79,9 @@ failed.map(Path.unlink)
 len(failed)
 ```
 
-
-
-
     6
 
-
-
 ### Using the DataLoaders
-
 
 ```python
 dls = DataBlock(
@@ -123,17 +93,11 @@ dls = DataBlock(
 ).dataloaders(path, bs=32)
 ```
 
-
 ```python
 dls.show_batch(max_n=6)
 ```
 
-
-    
 ![png](/assets/img/fast.ai/birds/output_15_0.png)
-    
-
-
 
 ```python
 learn = vision_learner(dls, resnet18, metrics=error_rate)
@@ -142,9 +106,6 @@ learn.fine_tune(3)
 
     Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to /home/kirubel/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth
     100%|██████████| 44.7M/44.7M [00:01<00:00, 44.1MB/s]
-
-
-
 
 <style>
     /* Turns off some styling */
@@ -161,9 +122,6 @@ learn.fine_tune(3)
         background: #F44336;
     }
 </style>
-
-
-
 
 <table border="1" class="dataframe">
   <thead>
@@ -186,9 +144,6 @@ learn.fine_tune(3)
   </tbody>
 </table>
 
-
-
-
 <style>
     /* Turns off some styling */
     progress {
@@ -204,9 +159,6 @@ learn.fine_tune(3)
         background: #F44336;
     }
 </style>
-
-
-
 
 <table border="1" class="dataframe">
   <thead>
@@ -243,17 +195,13 @@ learn.fine_tune(3)
   </tbody>
 </table>
 
-
 ## Step 3: Use our model (and build your own!)
-
 
 ```python
 is_bird,_,probs = learn.predict(PILImage.create('bird.jpg'))
 print(f"This is a: {is_bird}.")
 print(f"Probability it's a bird: {probs[0]:.4f}")
 ```
-
-
 
 <style>
     /* Turns off some styling */
@@ -271,12 +219,5 @@ print(f"Probability it's a bird: {probs[0]:.4f}")
     }
 </style>
 
-
-
-
-
-
-
     This is a: bird.
     Probability it's a bird: 1.0000
-
