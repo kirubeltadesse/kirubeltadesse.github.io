@@ -80,10 +80,10 @@
 />
 
 <!-- Styles -->
-<!-- <link
+<link
   rel="shortcut icon"
-  href="{{ '/assets/img/favicon.ico' | relative_url }}"
-/> -->
+  href="{{ '/assets/img/jesus.png' | relative_url }}"
+/>
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
 
 <link
@@ -92,6 +92,7 @@
 />
 
 <!-- Theming-->
+{% include scripts/jquery.html %}
 {% if site.enable_darkmode %}
   <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
 {% endif %}
