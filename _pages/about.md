@@ -17,7 +17,7 @@ robotics, which has led me to pursue a Master’s at Purdue University.
 As a Computer Engineering student with a concentration in Artificial Intelligence (AI), I have combined my passions for
 engineering, design, data mining, optimization, and security. I would take the initiative daily to merge my knowledge of
 agile software development and problem-solving skills to contribute to the development of your state-of-the-art products.
-Engineering, to me, is ensuring that a product is meeting the form, function, and quality that the designer intended. As
+Engineering, to me, is ensuring that a product meets the form, function, and quality that the designer intended. As
 a Research Assistant at Visualization Lab, my daily goal is to not only build visualizations but also make sure that my
 code and everyone within my team is using an object-oriented programming approach. Being a team leader on the development
 side, I navigate my team through the design process to address technical challenges with the right solutions. Therefore,

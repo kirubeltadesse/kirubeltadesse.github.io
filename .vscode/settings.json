@@ -3,7 +3,8 @@
     {
       "language": "markdown",
       "scheme": "file",
-      "pattern": "_pages/index.md"
+      "pattern": "_pages/*.md"
     }
-  ]
+  ],
+  "docwriter.style": "Auto-detect"
 }
