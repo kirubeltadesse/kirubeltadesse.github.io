@@ -25,7 +25,7 @@ Aside from understanding and implementing machine learning models, I work on sys
 
 I am always looking for folks who are interested in aiding on ongoing or newly created projects.
 
--Contact me by email if interested!
+- Contact me by email if you are interested on the project below!
 
 - Some of the Ongoing works:
   - [Fast.ai](https://www.fast.ai/) course
