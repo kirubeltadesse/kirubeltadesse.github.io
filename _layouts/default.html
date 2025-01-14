@@ -1,28 +1,30 @@
 <!doctype html>
 <html>
-  <head>
-    {% include head.html %}
-    {% include scripts/mathjax.html %}
-  </head>
 
-  <body
-    class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}"
-  >
-    {% include google_tags.html %}
-    <!-- Header -->
+<head>
+  {% include head.html %}
+  {% include scripts/mathjax.html %}
+</head>
 
-    {% include header.html %}
+<body
+  class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  {% include google_tags.html %}
+  <!-- Header -->
 
-    <!-- Content -->
+  {% include header.html %}
 
-    <div class="container mt-5">{{ content }}</div>
+  <!-- Content -->
 
-    <!-- Footer -->
+  <div class="container mt-5">{{ content }}</div>
 
-    {% include footer.html %}
-  </body>
+  <!-- Footer -->
 
-  {% include scripts/bootstrap.html %}
-  {% include scripts/mansory.html %}
-  {% include scripts/misc.html %}
+  {% include footer.html %}
+</body>
+
+{% include scripts/bootstrap.html %}
+{% include scripts/gallery.html %}
+{% include scripts/mansory.html %}
+{% include scripts/misc.html %}
+
 </html>
