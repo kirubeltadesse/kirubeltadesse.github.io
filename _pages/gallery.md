@@ -61,12 +61,10 @@ Engagement across campus with student at different Labs in UNM
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
-    <!-- Close Button -->
-    <span class="close">&times;</span>
-    <span class="prev">&lt;</span>
-    <span class="next">&gt;</span>
-    <!-- Modal Content (The Image) -->
-    <img class="modal-content" id="img01">
-    <!-- Modal Caption (Image Text) -->
-    <div id="caption"></div>
+  <span class="slider-button close">&times;</span>
+  <button class="slider-button slider-button-prev" aria-label="Previous">&lt;</button>
+  <button class="slider-button slider-button-next" aria-label="Next">&gt;</button>
+  <img class="modal-content" id="img01" alt="">
+  <div id="caption"></div>
 </div>
+
