@@ -55,6 +55,7 @@
   /* border-radius: 50%; /* Rounded button */ */
   transform: translateY(-50%); /* Center button vertically */
   transition: background-color 0.3s, transform 0.3s;
+
 }
 
 /* Adjust Buttons to Be Closer to the Image */
@@ -73,6 +74,7 @@
   /* transform: scale(1.1); /* Slight zoom effect */ */
 }
 
+
 /* Close Button */
 .close {
   position: absolute;
@@ -90,7 +92,6 @@
 .close:focus{
   color: #bbb;
 }
-
 
 /* Responsive Adjustments */
 @media only screen and (max-width: 700px) {
