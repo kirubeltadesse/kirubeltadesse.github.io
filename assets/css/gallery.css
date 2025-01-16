@@ -5,6 +5,16 @@
   transition: 0.3s;
 }
 
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    text-align: center;
+    color: #ccc;
+    padding: 10px;
+    font-size: 18px;
+}
+
 #myImg:hover {opacity: 0.7;}
 
 /* The Modal (background) */
@@ -45,6 +55,7 @@
   /* border-radius: 50%; /* Rounded button */ */
   transform: translateY(-50%); /* Center button vertically */
   transition: background-color 0.3s, transform 0.3s;
+
 }
 
 /* Adjust Buttons to Be Closer to the Image */
@@ -63,6 +74,7 @@
   /* transform: scale(1.1); /* Slight zoom effect */ */
 }
 
+
 /* Close Button */
 .close {
   position: absolute;
@@ -79,16 +91,6 @@
 .close:hover {
 .close:focus{
   color: #bbb;
-}
-
-/* Caption of Modal Image */
-#caption {
-  margin: auto;
-  display: block;
-  text-align: center;
-  color: #ccc;
-  padding: 10px;
-  font-size: 18px;
 }
 
 /* Responsive Adjustments */
