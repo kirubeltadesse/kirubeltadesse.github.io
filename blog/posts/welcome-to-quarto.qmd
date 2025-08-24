@@ -1,0 +1,50 @@
+---
+title: "Welcome to My Quarto Blog"
+author: "Kirubel Tadesse"
+date: "2024-08-24"
+categories: [welcome, blog]
+description: "First post using Quarto for blogging"
+---
+
+Hello! Welcome to my new Quarto-powered blog. This represents a transition from Jekyll to Quarto for my blogging needs.
+
+## Why Quarto?
+
+Quarto offers several advantages for technical blogging:
+
+- **Native support for multiple languages**: Python, R, Julia, and Observable
+- **Executable code blocks**: Run code directly in your posts
+- **Beautiful mathematical typesetting**: LaTeX equations render perfectly
+- **Modern publishing workflow**: Easy to maintain and extend
+
+## Features
+
+This blog supports:
+
+- Syntax highlighting
+- Mathematical equations: $E = mc^2$
+- Code execution
+- Interactive plots
+- And much more!
+
+## Code Example
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Generate some data
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+# Create a simple plot
+plt.figure(figsize=(8, 6))
+plt.plot(x, y)
+plt.title('Sine Wave')
+plt.xlabel('x')
+plt.ylabel('sin(x)')
+plt.grid(True)
+plt.show()
+```
+
+Stay tuned for more content about machine learning, AI, and software engineering!
