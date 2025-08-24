@@ -2,3 +2,5 @@ node_modules/
 _site/
 .sass-cache
 *.DS_Store
+public/
+.hugo_build.lock
