@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="{{ site.LanguageCode | default "en" }}">
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<body class="{{ if site.Params.navbar_fixed }}fixed-top-nav{{ end }} {{ if not site.Params.footer_fixed }}sticky-bottom-footer{{ end }}">
+  {{ partial "google_tags.html" . }}
+  
+  <!-- Header -->
+  {{ partial "header.html" . }}
+
+  <!-- Content -->
+  <div class="container mt-5">
+    {{ block "main" . }}{{ end }}
+  </div>
+
+  <!-- Footer -->
+  {{ partial "footer.html" . }}
+
+  {{ partial "scripts/bootstrap.html" . }}
+  {{ partial "scripts/gallery.html" . }}
+  {{ partial "scripts/mansory.html" . }}
+  {{ partial "scripts/misc.html" . }}
+</body>
+
+</html>
