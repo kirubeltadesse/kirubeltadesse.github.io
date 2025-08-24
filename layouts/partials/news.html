@@ -1,16 +1,14 @@
-<!-- News section placeholder -->
+<!-- News section -->
 <div class="news">
   <h2>News</h2>
   <div class="table-responsive">
     <table class="table table-sm table-borderless">
+      {{ range first 5 (where site.RegularPages "Type" "news") }}
       <tr>
-        <th scope="row">Apr 25, 2024</th>
-        <td>New website launched!</td>
+        <th scope="row">{{ .Date.Format "Jan 2, 2006" }}</th>
+        <td>{{ .Title }}</td>
       </tr>
-      <tr>
-        <th scope="row">Mar 7, 2024</th>
-        <td>Working on Hugo migration.</td>
-      </tr>
+      {{ end }}
     </table>
   </div>
 </div>
