@@ -1,0 +1,105 @@
+---
+title: "Data Science with Quarto"
+author: "Kirubel Tadesse"
+date: "2024-08-24"
+categories: [data-science, python, quarto]
+description: "Exploring data science capabilities in Quarto blog posts"
+---
+
+One of the most powerful features of Quarto is the ability to mix narrative content with executable code. This makes it perfect for data science blogging where you want to show both the process and results.
+
+## Working with Data
+
+Let's start with a simple data analysis example:
+
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Create sample data
+np.random.seed(42)
+data = {
+    'month': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+    'sales': np.random.randint(1000, 5000, 6),
+    'profit': np.random.randint(100, 800, 6)
+}
+
+df = pd.DataFrame(data)
+print("Sample Sales Data:")
+print(df)
+```
+
+## Mathematical Equations
+
+Quarto handles LaTeX beautifully. Here's the formula for linear regression:
+
+$$\hat{y} = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \ldots + \beta_n x_n$$
+
+For machine learning enthusiasts, here's the cross-entropy loss function:
+
+$$L = -\frac{1}{N} \sum_{i=1}^{N} \sum_{c=1}^{C} y_{ic} \log(p_{ic})$$
+
+## Visualizations
+
+```python
+# fig-cap: "Monthly Sales and Profit Trends"
+# fig-alt: "Bar chart showing sales and profit by month"
+
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
+
+# Sales chart
+ax1.bar(df['month'], df['sales'], color='steelblue', alpha=0.7)
+ax1.set_title('Monthly Sales')
+ax1.set_ylabel('Sales ($)')
+ax1.tick_params(axis='x', rotation=45)
+
+# Profit chart  
+ax2.bar(df['month'], df['profit'], color='darkgreen', alpha=0.7)
+ax2.set_title('Monthly Profit')
+ax2.set_ylabel('Profit ($)')
+ax2.tick_params(axis='x', rotation=45)
+
+plt.tight_layout()
+plt.show()
+```
+
+## Code Examples
+
+```python
+# Calculate some basic statistics
+print(f"Average monthly sales: ${df['sales'].mean():.2f}")
+print(f"Total profit: ${df['profit'].sum()}")
+print(f"Profit margin: {(df['profit'].sum() / df['sales'].sum() * 100):.1f}%")
+
+# Correlation analysis
+correlation = df['sales'].corr(df['profit'])
+print(f"Sales-Profit correlation: {correlation:.3f}")
+```
+
+## Interactive Elements
+
+Quarto also supports interactive widgets and plots. While this example uses static matplotlib, you could easily integrate:
+
+- **Plotly** for interactive charts
+- **Jupyter widgets** for interactive controls  
+- **Observable JS** for web-native interactivity
+- **Shiny** for R-based interactive apps
+
+## Benefits for Data Science Blogging
+
+1. **Reproducible**: Code and output are generated together
+2. **Version controlled**: Everything is in markdown/code
+3. **Professional**: Beautiful typesetting and layout
+4. **Flexible**: Support for multiple languages and frameworks
+5. **Portable**: Renders to HTML, PDF, Word, and more
+
+This combination of narrative, code, mathematics, and visualization makes Quarto ideal for technical blogging in data science and machine learning!
+
+::: {.callout-note}
+To enable executable code blocks, install Python dependencies:
+```bash
+pip install jupyter pandas numpy matplotlib
+```
+Then change code blocks from ` ```python ` to ` ```{python} ` for execution.
+:::
