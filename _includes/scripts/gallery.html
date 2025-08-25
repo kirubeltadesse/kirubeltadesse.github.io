@@ -1,28 +1,29 @@
-<script src="{{ '/assets/css/gallery.css' | relative_url }}"></script>"
+<script src="{{ '/assets/css/gallery.css' | relative_url }}"></script>
 <script>
   // JavaScript for modal functionality
-  document.addEventListener('DOMContentLoaded', function () {
-    const modal = document.getElementById('myModal');
-    const modalImg = document.getElementById('img01');
-    const captionText = document.getElementById('caption');
-    const closeBtn = document.querySelector('.close');
-    const nextBtn = document.querySelector('.slider-button-next');
-    const prevBtn = document.querySelector('.slider-button-prev');
+  document.addEventListener("DOMContentLoaded", function () {
+    const modal = document.getElementById("myModal");
+    const modalImg = document.getElementById("img01");
+    const captionText = document.getElementById("caption");
+    const closeBtn = document.querySelector(".close");
+    const nextBtn = document.querySelector(".slider-button-next");
+    const prevBtn = document.querySelector(".slider-button-prev");
 
-    const images = document.querySelectorAll('.gallery-img');
+    const images = document.querySelectorAll(".gallery-img");
     let currentIndex = 0;
 
     // Function to open the modal
     function openModal(index) {
       currentIndex = index;
-      modal.style.display = 'block';
+      modal.style.display = "block";
       modalImg.src = images[index].src;
-      captionText.innerHTML = images[index].alt || images[index].title || 'Image';
+      captionText.innerHTML =
+        images[index].alt || images[index].title || "Image";
     }
 
     // Function to close the modal
     function closeModal() {
-      modal.style.display = 'none';
+      modal.style.display = "none";
     }
 
     // Function to navigate to the next image
@@ -39,7 +40,7 @@
 
     // Add event listeners to images
     images.forEach((img, index) => {
-      img.addEventListener('click', () => openModal(index));
+      img.addEventListener("click", () => openModal(index));
     });
 
     // Add event listeners to buttons
@@ -55,4 +56,3 @@
     };
   });
 </script>
-
