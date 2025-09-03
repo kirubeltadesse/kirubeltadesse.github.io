@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Image Gallery
+title: Gallery
 inline: true
 permalink: /gallery/
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="gallery-img img-fluid rounded z-depth-1" src="{{ '/assets/img/image3.jpg' | relative_url }}" alt="" title="lunch at Ethiopian Researent at Ann Arbor, Michigan"/>
+        <img class="gallery-img img-fluid rounded z-depth-1"  src="{{ '/assets/img/image3.jpg' | relative_url }}" alt="" title="lunch at Ethiopian Researent at Ann Arbor, Michigan"/>
     </div>
 </div>
 <div class="caption">
@@ -67,4 +67,3 @@ Engagement across campus with student at different Labs in UNM
   <img class="modal-content" id="img01" alt="">
   <div id="caption"></div>
 </div>
-
