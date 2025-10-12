@@ -18,8 +18,8 @@ title = 'Kirubel Tadesse'
   
   # Layout settings
   navbar_fixed = true
-  footer_fixed = false
-  max_width = 800
+  footer_fixed = true 
+  max_width = 950
   
   # Features
   enable_google_tags = false
@@ -61,4 +61,4 @@ title = 'Kirubel Tadesse'
   [[menu.main]]
     name = 'blog'
     url = '/blog/'
-    weight = 40
+    weight = 50
