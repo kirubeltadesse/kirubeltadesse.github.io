@@ -1,15 +1,32 @@
 <!-- Social icons -->
 <div class="social">
   {{ if site.Params.github_username }}
-    <a href="https://github.com/{{ site.Params.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+  <a
+    href="https://github.com/{{ site.Params.github_username }}"
+    target="_blank"
+    title="GitHub"
+    ><i class="fab fa-github"></i
+  ></a>
   {{ end }}
-  {{ if site.Params.twitter_username }}
-    <a href="https://twitter.com/{{ site.Params.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+  {{ if site.Params.x_username }}
+  <a
+    href="https://twitter.com/{{ site.Params.twitter_username }}"
+    target="_blank"
+    title="X"
+    ><i class="fab fa-x"></i
+  ></a>
   {{ end }}
   {{ if site.Params.linkedin_username }}
-    <a href="https://www.linkedin.com/in/{{ site.Params.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+  <a
+    href="https://www.linkedin.com/in/{{ site.Params.linkedin_username }}"
+    target="_blank"
+    title="LinkedIn"
+    ><i class="fab fa-linkedin"></i
+  ></a>
   {{ end }}
   {{ if site.Params.email }}
-    <a href="mailto:{{ site.Params.email }}" title="Email"><i class="fas fa-envelope"></i></a>
+  <a href="mailto:{{ site.Params.email }}" title="Email"
+    ><i class="fas fa-envelope"></i
+  ></a>
   {{ end }}
 </div>

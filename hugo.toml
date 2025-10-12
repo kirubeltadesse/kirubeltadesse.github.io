@@ -9,7 +9,7 @@ title = 'Kirubel Tadesse'
   description = "I am interested in data science, swarm robotics, and deep learning. Master's focus area is Computer Engineering. I am currently working on topics like Artificial Intelligence (AI), Deep Learning, Machine Language, and neural networks (CNN, RNN, and MLP) about irrigation models."
   
   # Social media
-  twitter_username = 'kirubelmel'
+  x_username = 'kirubelmel'
   github_username = 'kirubeltadesse'
   linkedin_username = 'kirubeltadesse'
   stackoverflow_username = '4990583/kirubel-tadesse'
@@ -57,4 +57,8 @@ title = 'Kirubel Tadesse'
   [[menu.main]]
     name = 'contact'
     url = '/contact/'
+    weight = 40
+  [[menu.main]]
+    name = 'blog'
+    url = '/blog/'
     weight = 40
