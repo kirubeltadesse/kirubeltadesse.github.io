@@ -15,7 +15,13 @@
     font-size: 18px;
 }
 
-#myImg:hover {opacity: 0.7;}
+.gallery-img:hover {
+  cursor: pointer;
+  opacity: 0.75;
+  transform: scale(1.08);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+}
+
 
 /* The Modal (background) */
 .modal {
@@ -99,11 +105,17 @@
     font-size: 16px;
     padding: 8px 12px;
   }
-  .slider-button-prev, .slider-button-next {
-    left: -20px;
-    right: -20px;
+  .slider-button-prev {
+    left: 5vw;
+    right: auto;
+  }
+
+  .slider-button-next {
+    right: 5vw;
+    left: auto;
   }
   .close {
+    right: 5vw;
     font-size: 25px;
   }
 }

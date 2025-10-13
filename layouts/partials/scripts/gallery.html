@@ -2,3 +2,63 @@
 {{ if site.Params.enable_mansory }}
 <script src="/js/mansory.js"></script>
 {{ end }}
+
+<link rel="stylesheet" href="/css/gallery.css">
+</link>
+<script>
+  // JavaScript for modal functionality
+  document.addEventListener("DOMContentLoaded", function () {
+    const modal = document.getElementById("myModal");
+    const modalImg = document.getElementById("img01");
+    const captionText = document.getElementById("caption");
+    const closeBtn = document.querySelector(".close");
+    const nextBtn = document.querySelector(".slider-button-next");
+    const prevBtn = document.querySelector(".slider-button-prev");
+
+    const images = document.querySelectorAll(".gallery-img");
+    let currentIndex = 0;
+
+    // Function to open the modal
+    function openModal(index) {
+      currentIndex = index;
+      modal.style.display = "block";
+      modalImg.src = images[index].src;
+      captionText.innerHTML =
+        images[index].alt || images[index].title || "Image";
+    }
+
+    // Function to close the modal
+    function closeModal() {
+      modal.style.display = "none";
+    }
+
+    // Function to navigate to the next image
+    function nextImage() {
+      currentIndex = (currentIndex + 1) % images.length; // Loop back to the start
+      openModal(currentIndex);
+    }
+
+    // Function to navigate to the previous image
+    function prevImage() {
+      currentIndex = (currentIndex - 1 + images.length) % images.length; // Loop back to the end
+      openModal(currentIndex);
+    }
+
+    // Add event listeners to images
+    images.forEach((img, index) => {
+      img.addEventListener("click", () => openModal(index));
+    });
+
+    // Add event listeners to buttons
+    closeBtn.onclick = closeModal;
+    nextBtn.onclick = nextImage;
+    prevBtn.onclick = prevImage;
+
+    // Close modal on clicking outside the image
+    modal.onclick = function (event) {
+      if (event.target === modal) {
+        closeModal();
+      }
+    };
+  });
+</script>
