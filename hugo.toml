@@ -2,6 +2,9 @@ baseURL = 'https://kirubeltadesse.github.io/'
 languageCode = 'en-us'
 title = 'Kirubel Tadesse'
 
+# --- ADD publishDir
+publishDir = 'docs'
+
 [params]
   first_name = 'Kirubel'
   last_name = 'Tadesse'
