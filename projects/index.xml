@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>projects on Kirubel Tadesse</title><link>https://kirubeltadesse.github.io/projects/</link><description>Recent content in projects on Kirubel Tadesse</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://kirubeltadesse.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Artificial Intelligence</title><link>https://kirubeltadesse.github.io/projects/ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kirubeltadesse.github.io/projects/ai/</guid><description>&lt;!--
+- Artifical intellegince
+ - include ml and deeplearning projects
+--&gt;
+&lt;div class="row"&gt;
+ &lt;div class="col-sm mt-3 mt-md-0"&gt;
+ &lt;img class="img-fluid rounded z-depth-1" src="https://kirubeltadesse.github.io/img/ai.jpg" alt="" title="example image"/&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="caption"&gt;
+ Image taken form unsplash as an inspiring for Artificial Intelligence.
+&lt;/div&gt;
+&lt;p&gt;Through out my undergraduate, I was actively involved in &lt;a href="https://youtu.be/7-twuA5gL-4?si=s-ba2eCZYmQTDOoK"&gt;robotics work&lt;/a&gt;. Which naturally lead me to start working with machine learning projects in graduate school.&lt;/p&gt;
+&lt;p&gt;Currently, I am actively learning different deep learning techniques. Which I will here soon!&lt;/p&gt;
+&lt;p&gt;Here is a complete notebook for &lt;a href="https://kirubeltadesse.github.io/blog/posts/Is_it_a_bird/Is_it_a_bird.html"&gt;bird detection&lt;/a&gt; work&lt;/p&gt;</description></item><item><title>Open Source projects</title><link>https://kirubeltadesse.github.io/projects/opensource/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kirubeltadesse.github.io/projects/opensource/</guid><description>&lt;!-- - Open source
+ - include system design contribuition --&gt;
+&lt;div class="row"&gt;
+ &lt;div class="col-sm mt-3 mt-md-0"&gt;
+ &lt;img class="img-fluid rounded z-depth-1" src="https://kirubeltadesse.github.io/img/opensource.jpg" alt="" title=""/&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="caption"&gt;
+ Image taken form unsplash as an inspiring for Open Source technology.
+&lt;/div&gt;
+&lt;p&gt;I really enjoy contributing to the wide open source community while learning various new things along the way.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/donnemartin/system-design-primer/issues/820"&gt;Amharic translation for system-design-primer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Personal projects</title><link>https://kirubeltadesse.github.io/projects/personal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kirubeltadesse.github.io/projects/personal/</guid><description>&lt;div class="row"&gt;
+ &lt;div class="col-sm mt-3 mt-md-0"&gt;
+ &lt;img class="img-fluid rounded z-depth-1" src="https://kirubeltadesse.github.io/img/personal.jpg" alt="" title=""/&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="caption"&gt;
+ Image taken form unsplash as an inspiring for Personal projects.
+&lt;/div&gt;
+&lt;p&gt;I believe there are different ideas that come to us in a daily basis. It is important to have time for those ideas.
+Not only as a means of economical and intellectual gain but also as a source of passion and energy for farther development in our fields.&lt;/p&gt;
+&lt;p&gt;Out of my business schedule there are some project and continually engaged on.&lt;/p&gt;</description></item><item><title>Jackson State University Projects</title><link>https://kirubeltadesse.github.io/projects/undergraduate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kirubeltadesse.github.io/projects/undergraduate/</guid><description>&lt;div class="row"&gt;
+ &lt;div class="col-sm mt-3 mt-md-0"&gt;
+ &lt;img class="img-fluid rounded z-depth-1" src="https://kirubeltadesse.github.io/img/cover_pic.png" alt="assemblying a swarmie" title=""/&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id="nasa-swarmathon"&gt;NASA Swarmathon&lt;/h3&gt;
+&lt;p&gt;NASA Swarmathon involves university and community college students to participate in virtual and/or physical robotics competition.
+Through this program, students are expected to learn ROS (Robotic Operating System), develop an autonomous foraging algorithm, and
+assemble a Swarmie (rover). By doing so, they not only learn about new robotic technology but also have the opportunity to add to
+future NASA space exploration research. The inspiration came from the biological behaviors that ants exhibit during the foraging process.
+It is a key component that has inspired the iAnt development team to create a search algorithm that models ant foraging behavior. Dr. Melanie Moses and her students at the University of New Mexico implemented search algorithms into the iAnt robots. The research
+resulted in a partnership with NASA to further advance the search algorithms to be used for space expeditions to Mars.​&lt;/p&gt;</description></item><item><title>Purdue University</title><link>https://kirubeltadesse.github.io/projects/graduate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kirubeltadesse.github.io/projects/graduate/</guid><description>&lt;div class="row"&gt;
+ &lt;div class="col-sm mt-3 mt-md-0"&gt;
+ &lt;img class="img-fluid rounded z-depth-1" src="https://kirubeltadesse.github.io/img/purdue.jpeg" alt="" title="Picture next to John Purdue"/&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id="graduate-research-assistantship-at-purdue-university"&gt;Graduate Research Assistantship at &lt;a href="https://www.purdue.edu/"&gt;Purdue University&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.purdue.edu/discoverypark/vaccine/team/students.php"&gt;Visual Analytics Lab&lt;/a&gt; Worked on Machine learning model and web-based visualization system
+for crop irrigation. Besides, I worked on creating a web page ranking and
+&lt;a href="https://github.com/kirubeltadesse/Webpageranking"&gt;visualization tool&lt;/a&gt;
+based on user experience and integrated a predictive model with user
+interactive visualization tool.&lt;/p&gt;
+&lt;h3 id="graduate-teaching-assistants"&gt;Graduate Teaching Assistants&lt;/h3&gt;
+&lt;p&gt;For Computer Design and Prototyping (ECE 437) during fall 2017. In
+addition to holding regular office hours, I helped students on piazza
+forum and graded homework and tests.&lt;/p&gt;</description></item></channel></rss>
