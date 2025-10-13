@@ -1,11 +1,11 @@
 version: "3"
 
 services:
-  jekyll-services:
-    image: jekyll/jekyll:4.0
+  hugo:
+    image: klakegg/hugo:latest
     volumes:
-      - ./:/srv/jekyll
-      - .:/workspace:cached
+      - ./:/src
     ports:
-      - 4000:4000
-    command: "jekyll serve --trace"
+      - 1313:1313
+    command: server --bind=0.0.0.0
+

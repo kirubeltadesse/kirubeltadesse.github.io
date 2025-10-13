@@ -1,0 +1,64 @@
+baseURL = 'https://kirubeltadesse.github.io/'
+languageCode = 'en-us'
+title = 'Kirubel Tadesse'
+
+[params]
+  first_name = 'Kirubel'
+  last_name = 'Tadesse'
+  email = 'kirubeltadesse@duck.com'
+  description = "I am interested in data science, swarm robotics, and deep learning. Master's focus area is Computer Engineering. I am currently working on topics like Artificial Intelligence (AI), Deep Learning, Machine Language, and neural networks (CNN, RNN, and MLP) about irrigation models."
+  
+  # Social media
+  x_username = 'kirubelmel'
+  github_username = 'kirubeltadesse'
+  linkedin_username = 'kirubeltadesse'
+  stackoverflow_username = '4990583/kirubel-tadesse'
+  medium_username = 'kiyamelak'
+  youtube_username = 'kiyamelak'
+  
+  # Layout settings
+  navbar_fixed = true
+  footer_fixed = true 
+  max_width = 950
+  
+  # Features
+  enable_google_tags = false
+  enable_mansory = true
+  enable_math = false
+  enable_tooltips = true
+  enable_darkmode = true
+  show_social_icons = true
+  
+  footer_text = 'I am interested in data science, artificial Intelligence, and swarmie robotics. I am currently actively participating in AI topics. If you are interested, please reach out'
+  contact_note = 'You can even add a little note about which of these is the best way to reach you.'
+  
+  google_tags = 'GTM-5HVW522'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = 'github'
+    
+[menu]
+  [[menu.main]]
+    name = 'background'
+    url = '/background/'
+    weight = 10
+  [[menu.main]]
+    name = 'projects'
+    url = '/projects/'
+    weight = 20
+  [[menu.main]]
+    name = 'gallery'
+    url = '/gallery/'
+    weight = 30
+  [[menu.main]]
+    name = 'contact'
+    url = '/contact/'
+    weight = 40
+  [[menu.main]]
+    name = 'blog'
+    url = '/blog/'
+    weight = 50

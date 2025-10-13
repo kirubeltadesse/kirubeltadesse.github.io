@@ -1,0 +1,121 @@
+{{ define "main" }}
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+    <p class="desc">{{ .Params.description }}</p>
+  </header>
+
+  <article>
+    <div class="row">
+      <div class="col-sm mt-3 mt-md-0">
+        <img
+          class="gallery-img img-fluid rounded z-depth-1"
+          src="/img/image3.jpg"
+          alt=""
+          title="lunch at Ethiopian Restaurant at Ann Arbor, Michigan"
+        />
+      </div>
+    </div>
+    <div class="caption">
+      Launch at an Ethiopian Restaurant and with Dr. Melanie Moses the principal
+      investigated of the NASA Swarmanthon projects
+    </div>
+    <div class="row">
+      <div class="col-sm mt-3 mt-md-0">
+        <img
+          class="gallery-img img-fluid rounded z-depth-1"
+          src="/img/image6.jpg"
+          alt=""
+          title="Explaining similar triangle concept"
+        />
+      </div>
+      <div class="col-sm mt-3 mt-md-0">
+        <img
+          class="gallery-img img-fluid rounded z-depth-1"
+          src="/img/image7.jpg"
+          alt=""
+          title="My desk at Biological Computation Lab UNM"
+        />
+      </div>
+    </div>
+    <div class="caption">
+      Exciting time working in the Moses Biological Computation Lab.
+    </div>
+
+    Engagement across campus with student at different Labs in UNM
+
+    <div class="row justify-content-sm-center">
+      <div class="col-sm mt-3 mt-md-0">
+        <img
+          class="gallery-img img-fluid rounded z-depth-1"
+          src="/img/image8.jpg"
+          alt=""
+          title="At the tip of a mountain"
+        />
+      </div>
+
+      <div class="col-sm mt-3 mt-md-0">
+        <img
+          class="gallery-img img-fluid rounded z-depth-1"
+          src="/img/image1.jpg"
+          alt=""
+          title="Mountain claiming with Manu"
+        />
+      </div>
+    </div>
+
+    <div class="row justify-content-sm-center">
+      <div class="col-sm mt-3 mt-md-0">
+        <img
+          class="gallery-img img-fluid rounded z-depth-1"
+          src="/img/image5.jpg"
+          alt=""
+          title="Dinner with fellow lab meets"
+        />
+      </div>
+      <div class="col-sm mt-3 mt-md-0">
+        <img
+          class="gallery-img img-fluid rounded z-depth-1"
+          src="/img/image2.jpg"
+          alt=""
+          title="visiting University of Michigan Campus"
+        />
+      </div>
+    </div>
+
+    <div class="row justify-content-sm-center">
+      <div class="col-sm mt-3 mt-md-0">
+        <img
+          class="gallery-img img-fluid rounded z-depth-1"
+          src="/img/image4.jpg"
+          alt=""
+          title="UNM campus"
+        />
+      </div>
+      <div class="col-sm mt-3 mt-md-0">
+        <img
+          class="gallery-img img-fluid rounded z-depth-1"
+          src="/img/image9.jpg"
+          alt=""
+          title="Summer Internship Morning"
+        />
+      </div>
+    </div>
+
+    <div class="caption">University of New Mexico campus view</div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="slider-button close">&times;</span>
+      <button class="slider-button slider-button-prev" aria-label="Previous">
+        &lt;
+      </button>
+      <button class="slider-button slider-button-next" aria-label="Next">
+        &gt;
+      </button>
+      <img class="modal-content" id="img01" alt="" />
+      <div id="caption"></div>
+    </div>
+  </article>
+</div>
+{{ end }}

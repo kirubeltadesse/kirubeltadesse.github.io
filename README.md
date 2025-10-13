@@ -1,44 +1,34 @@
 # kirubeltadesse.github.io
 
-[![Jekyll site CI](https://github.com/kirubeltadesse/kirubeltadesse.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/kirubeltadesse/kirubeltadesse.github.io/actions/workflows/jekyll.yml)
+[![Hugo site CI](https://github.com/kirubeltadesse/kirubeltadesse.github.io/actions/workflows/hugo.yml/badge.svg)](https://github.com/kirubeltadesse/kirubeltadesse.github.io/actions/workflows/hugo.yml)
 
-Hello! `Gemfile` is where you manage which Jekyll version is used to run.
-When you want to use a different version, change it below, save the
-file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+Personal website built with Hugo - a fast and modern static site generator.
 
-- `jekyll build` - Performs a one-off build your site to
-- `bundle exec jekyll serve` - Builds your site anytime a source file changes and serves it locally
-- `jekyll serve` - Builds your site anytime a source file changes and serves it locally. You can also specify flags as `jekyll serve` --host 0.0.0.0 --port 4001` to serve on a different port or host.
+## Development
 
-This will help ensure the proper Jekyll version is running.
-Happy Jekylling!
+This site is built using [Hugo](https://gohugo.io/). To run locally:
 
-Note: general configuration is in `_config.yml` and the theme is in `_layouts/default.html`
+1. Install Hugo (extended version)
+2. Clone this repository
+3. Run `hugo server` to start the development server
+4. Visit `http://localhost:1313` to view the site
 
-## News pages
+## Building
 
-- News pages are in `_news/` directory
-- News pages are sorted by date, so the most recent news is at the top
-- News pages are in markdown format
-- News pages are named `YYYY-MM-DD-title.md` where `YYYY-MM-DD` is the date of the news item and `title` is the title of the news item
-- News pages have the following front matter:
+- `hugo` - Build the site for production
+- `hugo server` - Start development server with live reload
+- `hugo server --buildDrafts` - Include draft content
 
-```
----
-layout: post
-date: 2023-12-25 15:59:00-0400
-inline: false
-title: new news website
----
-```
+## Deployment
 
-- `layout: post` is required
-- `date` is required and should be in the format above and the date should be in the past
-- `inline: false` is required and should be set to `false` if you want the news item to be displayed on the news page, otherwise set to `true`
-- `title` is required and should be the title of the news item
+The site is automatically deployed to GitHub Pages via GitHub Actions when changes are pushed to the main branch.
 
-## Gallery pages
+## Content Structure
 
-- Gallery pages are in `_pages/gallery.md` directory
-  NOTE: you can have different size of the images by playing with class ["col-sm-4" "col-sm-8"] will result in 1/2 ...
-  rename the caption and image titles in the page
+- `content/_index.md` - Home page content
+- `content/about/` - About page
+- `content/projects/` - Project pages
+- `content/gallery/` - Photo gallery
+- `content/news/` - News items
+- `static/` - Static assets (CSS, JS, images)
+- `layouts/` - Hugo templates and partials

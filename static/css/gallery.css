@@ -1,0 +1,122 @@
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    text-align: center;
+    color: #ccc;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.gallery-img:hover {
+  cursor: pointer;
+  opacity: 0.75;
+  transform: scale(1.08);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1050; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%; /* Default width based on the image size */
+  max-width: 800px; /* Prevent the image from taking too much space */
+  object-fit: contain; /* Keep aspect ratio */
+}
+
+/* Navigation Buttons */
+.slider-button {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 15px; /* Adjust button size */
+  cursor: pointer;
+  z-index: 1100; /* Ensure visibility above other elements */
+  /* border-radius: 50%; /* Rounded button */ */
+  transform: translateY(-50%); /* Center button vertically */
+  transition: background-color 0.3s, transform 0.3s;
+
+}
+
+/* Adjust Buttons to Be Closer to the Image */
+.slider-button-prev {
+  left: 35%; /* Positioned slightly outside the left edge of the image */
+}
+
+.slider-button-next {
+  right: 35%; /* Positioned slightly outside the right edge of the image */
+}
+
+/* Hover Effect for Buttons */
+.slider-button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  /* transform: scale(1.1); /* Slight zoom effect */ */
+}
+
+
+/* Close Button */
+.close {
+  position: absolute;
+  top: 5%;
+  right: 35%;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  z-index: 1100; /* Ensure visibility above other elements */
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.close:hover {
+.close:focus{
+  color: #bbb;
+}
+
+/* Responsive Adjustments */
+@media only screen and (max-width: 700px) {
+  .slider-button {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+  .slider-button-prev {
+    left: 5vw;
+    right: auto;
+  }
+
+  .slider-button-next {
+    right: 5vw;
+    left: auto;
+  }
+  .close {
+    right: 5vw;
+    font-size: 25px;
+  }
+}
+

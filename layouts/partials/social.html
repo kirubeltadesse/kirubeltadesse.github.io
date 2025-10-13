@@ -1,0 +1,43 @@
+<!-- Social icons -->
+<div class="social">
+  <span class="contact-icon text-center">
+    {{ if site.Params.github_username }}
+    <a
+      href="https://github.com/{{ site.Params.github_username }}"
+      target="_blank"
+      title="GitHub"
+      ><i class="fab fa-github"></i
+    ></a>
+    {{ end }}
+    {{ if site.Params.x_username }}
+    <a
+      href="https://twitter.com/{{ site.Params.twitter_username }}"
+      target="_blank"
+      title="X"
+      ><i class="fab fa-x"></i
+    ></a>
+    {{ end }}
+    {{ if site.Params.linkedin_username }}
+    <a
+      href="https://www.linkedin.com/in/{{ site.Params.linkedin_username }}"
+      target="_blank"
+      title="LinkedIn"
+      ><i class="fab fa-linkedin"></i
+    ></a>
+    {{ end }}
+    {{ if site.Params.email }}
+    <a href="mailto:{{ site.Params.email }}" title="Email"
+      ><i class="fas fa-envelope"></i
+    ></a>
+    {{ end }}
+
+    {{ if site.Params.keybase_username }}
+    <a
+      href="https://keybase.io/{{ site.keybase_username }}"
+      target="_blank"
+      title="Keybase"
+      ><i class="fab fa-keybase"></i
+    ></a>
+    {{ end }}
+  </span>
+</div>
