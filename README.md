@@ -23,6 +23,17 @@ This site is built using [Hugo](https://gohugo.io/). To run locally:
 
 The site is automatically deployed to GitHub Pages via GitHub Actions when changes are pushed to the main branch.
 
+### GitHub Pages Configuration
+
+To ensure the site deploys correctly:
+
+1. Go to repository **Settings** → **Pages**
+2. Under **Build and deployment**, set:
+   - **Source**: GitHub Actions
+3. The workflow will automatically build and deploy the Hugo site
+
+The workflow uses GitHub's official Pages deployment action which uploads the built site directly to GitHub Pages.
+
 ## Content Structure
 
 - `content/_index.md` - Home page content
