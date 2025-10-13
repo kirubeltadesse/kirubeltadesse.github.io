@@ -1,6 +1,10 @@
 <!-- Minimal footer for now -->
-<footer class="fixed-bottom">
-  <div class="container mt-0">
-    © Copyright 2024 {{ site.Params.first_name }} {{ site.Params.last_name }}. {{ site.Params.footer_text | markdownify }}
+<footer class="sticky-bottom mt-5">
+  <div class="container">
+    © Copyright 2024 {{ site.Params.first_name }} {{ site.Params.last_name }}.
+    <p>{{ site.Params.footer_text | markdownify }}</p>
+    <!-- <div class="contact-icons"> -->
+    {{ partial "social.html" . }}
+    <!-- </div> -->
   </div>
 </footer>
