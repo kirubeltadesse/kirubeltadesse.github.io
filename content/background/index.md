@@ -1,5 +1,5 @@
 ---
-title: "Background"
+title: "background"
 layout: "page"
 ---
 
@@ -43,4 +43,3 @@ Across my career, I’ve combined engineering, design, and problem-solving skill
 
 - Designed Tableau dashboards for public schools to improve parent-teacher communication
 - Helped Hattiesburg Public School District rank #1 nationally for student progress tracking
-

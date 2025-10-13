@@ -43,8 +43,8 @@ title = 'Kirubel Tadesse'
     
 [menu]
   [[menu.main]]
-    name = 'about'
-    url = '/about/'
+    name = 'background'
+    url = '/background/'
     weight = 10
   [[menu.main]]
     name = 'projects'
