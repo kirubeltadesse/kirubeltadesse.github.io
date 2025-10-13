@@ -11,34 +11,41 @@
 
   <article>
     {{ if .Params.profile }}
-      <div class="profile float-{{ if eq .Params.profile.align "left" }}left{{ else }}right{{ end }}">
-        {{ if .Params.profile.image }}
-          <img src="/img/{{ .Params.profile.image }}" class="img-fluid z-dept-1 rounded" alt="{{ .Params.profile.image_alt }}" />
-        {{ end }}
-        {{ if .Params.profile.address }}
-          <div class="address">{{ .Params.profile.sub_title }}</div>
-          <div class="title">{{ .Params.profile.address | markdownify }}</div>
-        {{ end }}
-      </div>
+    <div
+      class="profile float-{{ if eq .Params.profile.align "left" }}left{{ else }}right{{ end }}"
+    >
+      {{ if .Params.profile.image }}
+      <img
+        src="/img/{{ .Params.profile.image }}"
+        class="img-fluid z-dept-1 rounded"
+        alt="{{ .Params.profile.image_alt }}"
+      />
+      {{ end }}
+      {{ if .Params.profile.address }}
+      <div class="address">{{ .Params.profile.sub_title }}</div>
+      <div class="title">{{ .Params.profile.address | markdownify }}</div>
+      {{ end }}
+    </div>
     {{ end }}
 
     <div class="clearfix">{{ .Content }}</div>
 
-    {{ if .Params.news }}
-      <!-- News -->
-      {{ partial "news.html" . }}
-    {{ end }}
-    {{ if .Params.selected_papers }}
-      <!-- Selected papers -->
-      {{ partial "selected_papers.html" . }}
-    {{ end }}
+    <!-- {{ if .Params.news }} -->
+    <!-- <!-- News -->
+    <!-- {{ partial "news.html" . }} -->
+    <!-- {{ end }} -->
+    <!-- {{ if .Params.selected_papers }} -->
+    <!-- <!-- Selected papers -->
+    <!-- {{ partial "selected_papers.html" . }} -->
+    <!-- {{ end }} -->
     {{ if .Params.social }}
-      <!-- Social -->
-      <div class="social">
-        <div class="contact-icons">{{ partial "social.html" . }}</div>
-        <div class="contact-note">{{ site.Params.contact_note }}</div>
-      </div>
+    <!-- Social -->
+    <div class="social">
+      <div class="contact-icons">{{ partial "social.html" . }}</div>
+      <div class="contact-note">{{ site.Params.contact_note }}</div>
+    </div>
     {{ end }}
   </article>
 </div>
 {{ end }}
+

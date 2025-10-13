@@ -10,7 +10,7 @@ importance: 5
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="/assets/img/cover_pic.png" alt="assemblying a swarmie" title=""/>
+        <img class="img-fluid rounded z-depth-1" src="/img/cover_pic.png" alt="assemblying a swarmie" title=""/>
     </div>
 </div>
 
@@ -25,7 +25,7 @@ resulted in a partnership with NASA to further advance the search algorithms to 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/rover_orig.png' | relative_url }}" alt="" title=""/>
+        <img class="img-fluid rounded z-depth-1" src="/img/rover_orig.png" alt="" title=""/>
     </div>
 </div>
 
@@ -33,7 +33,7 @@ resulted in a partnership with NASA to further advance the search algorithms to 
 
 <div class="row">
   <div class="col">
-    <img src="assets/img/tag_orig.jpg" width="100%" align="center" alt="" />
+    <img src="/img/tag_orig.jpg" width="100%" align="center" alt="" />
   </div>
   <div class="col">
     APRIL TAG CUBE
@@ -41,20 +41,24 @@ resulted in a partnership with NASA to further advance the search algorithms to 
   </div>
 </div>
 
+---
+
 <div class="row">
   <div class="col">
     POSTER PRESENTATION
     Poster presentation on RSS - Robots Science and Systems- Swarmathon workshop. I presented part of the summer research I was doing at the University of New Mexico.
-    <a href="{{ site.url }}/assets/poster.pdf">LEARN MORE</a>
+    <a href="/poster.pdf">LEARN MORE</a>
   </div>
   <div class="col">
-    <img src="/assets/img/2016-06-19-14-30-39_orig.jpg" width="100%" align="center" alt="" />
+    <img src="/img/2016-06-19-14-30-39_orig.jpg" width="100%" align="center" alt="" />
   </div>
 </div>
 
+---
+
 <div class=row>
   <div class="col">
-    <img src="/assets/img/img-0115_orig.jpg" width="100%" align="center" alt="" />
+    <img src="/img/img-0115_orig.jpg" width="100%" align="center" alt="" />
   </div>
   <div class="col">
   ACTIVITIES
@@ -74,7 +78,7 @@ resulted in a partnership with NASA to further advance the search algorithms to 
 </div>
 <div class=row>
   <div class="col">
-    <a href="{{ site.url }}/assets/twcportfolio.pdf"> TWC Experience </a>
+    <a href="/twcportfolio.pdf"> TWC Experience </a>
   </div>
   <div class="col">
     <a href="https://prezi.com/1o77flmglkuu/summer-research-at-unm/?utm_campaign=share&utm_medium=copy"> Final presentation </a>
@@ -83,11 +87,11 @@ resulted in a partnership with NASA to further advance the search algorithms to 
 
 <div class=row>
   <div class="col">
-    <a href="{{ site.url }}/assets/portfolio.pdf">  P3strategies </a>
+    <a href="/portfolio.pdf">  P3strategies </a>
   </div>
 
   <div class="col">
-    <a href="{{ site.url }}/assets/poster.pdf">  Poster</a>
+    <a href="/poster.pdf">  Poster</a>
   </div>
 </div>
 
@@ -96,7 +100,7 @@ resulted in a partnership with NASA to further advance the search algorithms to 
   </div>
 
   <div class="col">
-    <a href="{{ site.url }}/assets/iros-extended-abestract_2.pdf"> Extended Abstract </a>
+    <a href="/iros-extended-abestract_2.pdf"> Extended Abstract </a>
   </div>
 </div>
 
