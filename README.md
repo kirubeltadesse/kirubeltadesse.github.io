@@ -1,3 +1,28 @@
+[![Hugo site CI](https://github.com/kirubeltadesse/kirubeltadesse.github.io/actions/workflows/hugo.yml/badge.svg)](https://github.com/kirubeltadesse/kirubeltadesse.github.io/actions/workflows/hugo.yml)
+
+Personal website built with Hugo - a fast and modern static site generator.
+
+## Development
+
+This site is built using [Hugo](https://gohugo.io/). To run locally:
+
+1. Install Hugo (extended version)
+2. Clone this repository
+3. Run `hugo server` to start the development server
+4. Visit `http://localhost:1313` to view the site
+
+## Building
+
+- `hugo` - Build the site for production
+- `hugo server` - Start development server with live reload
+- `hugo server --buildDrafts` - Include draft content
+
+## Deployment
+
+The site is automatically deployed to GitHub Pages via GitHub Actions when changes are pushed to the main branch.
+
+---
+
 [bep]: https://github.com/bep
 [bugs]: https://github.com/gohugoio/hugo/issues?q=is%3Aopen+is%3Aissue+label%3ABug
 [contributing]: CONTRIBUTING.md
@@ -54,7 +79,7 @@ Hugo's fast asset pipelines include:
 
 - CSS bundling &ndash; transpilation (Sass), tree shaking, minification, source maps, SRI hashing, and PostCSS integration
 - JavaScript bundling &ndash; transpilation (TypeScript, JSX), tree shaking, minification, source maps, and SRI hashing
-- Image processing &ndash; convert, resize, crop, rotate,  adjust colors, apply filters, overlay text and images, and extract EXIF data
+- Image processing &ndash; convert, resize, crop, rotate, adjust colors, apply filters, overlay text and images, and extract EXIF data
 
 And with [Hugo Modules], you can share content, assets, data, translations, themes, templates, and configuration with other projects via public or private Git repositories.
 
@@ -289,4 +314,5 @@ gopkg.in/yaml.v3="v3.0.1"
 howett.net/plist="v1.0.0"
 software.sslmate.com/src/go-pkcs12="v0.2.0"
 ```
+
 </details>
