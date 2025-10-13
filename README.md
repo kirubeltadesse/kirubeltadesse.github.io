@@ -1,6 +1,6 @@
 # kirubeltadesse.github.io
 
-[![Hugo site CI](https://github.com/kirubeltadesse/kirubeltadesse.github.io/actions/workflows/hugo.yml/badge.svg)](https://github.com/kirubeltadesse/kirubeltadesse.github.io/actions/workflows/hugo.yml)
+[![Deploy Hugo site to Pages](https://github.com/kirubeltadesse/kirubeltadesse.github.io/actions/workflows/hugo.yml/badge.svg)](https://github.com/kirubeltadesse/kirubeltadesse.github.io/actions/workflows/hugo.yml)
 
 Personal website built with Hugo - a fast and modern static site generator.
 
