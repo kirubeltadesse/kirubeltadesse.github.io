@@ -59,6 +59,6 @@ title = 'Kirubel Tadesse'
     url = '/contact/'
     weight = 40
   [[menu.main]]
-    name = 'blog'
+    name = 'blogs'
     url = '/blog/'
     weight = 50
