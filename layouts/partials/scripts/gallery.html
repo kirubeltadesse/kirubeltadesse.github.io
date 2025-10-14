@@ -50,15 +50,23 @@
     });
 
     // Add event listeners to buttons
-    closeBtn.onclick = closeModal;
-    nextBtn.onclick = nextImage;
-    prevBtn.onclick = prevImage;
+    if (closeBtn) {
+      closeBtn.onclick = closeModal;
+    }
+    if (nextBtn) {
+      nextBtn.onclick = nextImage;
+    }
+    if (prevBtn) {
+      prevBtn.onclick = prevImage;
+    }
 
     // Close modal on clicking outside the image
-    modal.onclick = function (event) {
-      if (event.target === modal) {
-        closeModal();
-      }
-    };
+    if(modal) {
+      modal.onclick = function (event) {
+        if (event.target === modal) {
+          closeModal();
+        }
+      };
+    }
   });
 </script>
