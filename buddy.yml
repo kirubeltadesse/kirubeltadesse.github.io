@@ -1,0 +1,20 @@
+- pipeline: "Build and Deploy Hugo site"
+  trigger_mode: "ON_EVERY_PUSH"
+  ref_name: "master"
+  actions:
+    - action: "Execute: hugo build"
+      type: "BUILD"
+      docker_image_name: "klakegg/hugo"
+      docker_image_tag: "0.134.3-ext-alpine"
+      execute_commands:
+        - "hugo --gc --minify"
+      cached_dirs:
+        - "/tmp/hugo_cache"
+      
+    - action: "Deploy to GitHub Pages"
+      type: "GITHUB_PAGES"
+      local_path: "public"
+      remote_path: "/"
+      deployment_excludes:
+        - ".git*"
+        - "*.md"
