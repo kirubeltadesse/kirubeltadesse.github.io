@@ -9,7 +9,6 @@ profile:
   address: |
     Located at Laughton
     Essex, UK
-news: true
 ---
 
 Hello! My name is Kirubel, and I enjoy combining machine learning capabilities with any industry. I love working on open-source projects and collaborating with people on mini-projects that explain fundamental machine-learning concepts and can be used in everyday life.
