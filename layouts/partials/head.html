@@ -82,10 +82,11 @@
 {{ partial "scripts/jquery.html" . }}
 {{ partial "scripts/mansory.html" . }}
 {{ partial "scripts/misc.html" . }}
-{{ if site.Params.enable_darkmode }}
-<script src="/js/theme.js"></script>
-{{ end }}
 {{ if site.Params.enable_google_tags }}
+
+{{ if site.Params.enable_darkmode }}
+{{ partial "scripts/theme_init.html" . }}
+{{ end }}
 <!-- Google Tag Manager -->
 <script>
   (function (w, d, s, l, i) {
