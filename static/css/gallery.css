@@ -66,11 +66,13 @@
 
 /* Adjust Buttons to Be Closer to the Image */
 .slider-button-prev {
-  left: 35%; /* Positioned slightly outside the left edge of the image */
+  left: 50%; /* Positioned slightly outside the left edge of the image */
+  transform: translate(calc(-50% - 400px - 20px), -50%);
 }
 
 .slider-button-next {
-  right: 35%; /* Positioned slightly outside the right edge of the image */
+  right: 50%; /* Positioned slightly outside the right edge of the image */
+  transform: translate(calc(-50% - 400px - 20px), -50%);
 }
 
 /* Hover Effect for Buttons */
@@ -85,13 +87,14 @@
 .close {
   position: absolute;
   top: 5%;
-  right: 35%;
+  right: 50%;
   color: white;
   font-size: 30px;
   font-weight: bold;
   z-index: 1100; /* Ensure visibility above other elements */
   cursor: pointer;
   transition: color 0.3s;
+  transform: translate(calc(400px - 50px);
 }
 
 .close:hover {
@@ -106,17 +109,24 @@
     padding: 8px 12px;
   }
   .slider-button-prev {
-    left: 5vw;
+    left: 10px;
     right: auto;
+    transform: translateY(-50%;);
   }
 
   .slider-button-next {
-    right: 5vw;
+    right: 10px;
     left: auto;
+    transform: translateY(-50%;);
   }
   .close {
-    right: 5vw;
-    font-size: 25px;
+    right: 10px;
+    font-size: 30px
+  }
+  /* Adjust Modal Content to use more screen space */
+  .modal-content {
+      width: 95%;
+      margin-top: 5%;
   }
 }
 
