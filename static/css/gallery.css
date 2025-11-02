@@ -11,7 +11,7 @@
     display: block;
     text-align: center;
     color: #ccc;
-    padding: 10px;
+    padding: 10px; /* Default padding reset to allow media query to control it */
     font-size: 18px;
 }
 
@@ -21,7 +21,6 @@
   transform: scale(1.08);
   box-shadow: 0 8px 24px rgba(0,0,0,0.18);
 }
-
 
 /* The Modal (background) */
 .modal {
@@ -46,40 +45,42 @@
   object-fit: contain; /* Keep aspect ratio */
 }
 
+/* --- LARGE SCREEN (DEFAULT) NAVIGATION STYLES --- */
+
 /* Navigation Buttons */
 .slider-button {
   position: absolute;
   top: 50%; /* Center vertically */
-  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.6);
   border: none;
   color: white;
   font-size: 20px;
   font-weight: bold;
-  padding: 10px 15px; /* Adjust button size */
+  padding: 10px 15px;
   cursor: pointer;
-  z-index: 1100; /* Ensure visibility above other elements */
-  /* border-radius: 50%; /* Rounded button */ */
+  z-index: 9999; /* Increased Z-index for visibility */
   transform: translateY(-50%); /* Center button vertically */
   transition: background-color 0.3s, transform 0.3s;
-
 }
 
-/* Adjust Buttons to Be Closer to the Image */
+/* Adjust Buttons to Be Closer to the Image (Large Screens) */
 .slider-button-prev {
-  left: 50%; /* Positioned slightly outside the left edge of the image */
-  transform: translate(calc(-50% - 400px - 20px), -50%);
+  left: 50%;
+  /* Shift Left: 400px (half max-width) + 20px (offset) */
+  transform: translate(calc(-400px - 20px), -50%);
 }
 
 .slider-button-next {
-  right: 50%; /* Positioned slightly outside the right edge of the image */
-  transform: translate(calc(-50% - 400px - 20px), -50%);
+  right: 50%;
+  /* Shift Right: 400px (half max-width) + 20px (offset) */
+  /* Note: Use positive value for right shift to push it outwards */
+  transform: translate(calc(400px + 20px), -50%);
 }
 
 /* Hover Effect for Buttons */
 .slider-button:hover {
   background-color: rgba(255, 255, 255, 0.8);
   color: black;
-  /* transform: scale(1.1); /* Slight zoom effect */ */
 }
 
 
@@ -91,42 +92,67 @@
   color: white;
   font-size: 30px;
   font-weight: bold;
-  z-index: 1100; /* Ensure visibility above other elements */
+  z-index: 9999; /* Increased Z-index for visibility */
   cursor: pointer;
   transition: color 0.3s;
-  transform: translate(calc(400px - 50px);
+  /* Shift Right: 400px (half max-width) - 20px (offset) */
+  transform: translateX(calc(400px - 20px)); /* <-- Fixed missing closing parenthesis */
 }
 
-.close:hover {
-.close:focus{
+/* Corrected syntax for hover and focus */
+.close:hover,
+.close:focus {
   color: #bbb;
 }
 
-/* Responsive Adjustments */
+/* --- SMALL SCREEN (MOBILE) RESPONSIVE STYLES --- */
 @media only screen and (max-width: 700px) {
-  .slider-button {
-    font-size: 16px;
-    padding: 8px 12px;
-  }
-  .slider-button-prev {
-    left: 10px;
-    right: auto;
-    transform: translateY(-50%;);
-  }
 
-  .slider-button-next {
-    right: 10px;
-    left: auto;
-    transform: translateY(-50%;);
-  }
-  .close {
-    right: 10px;
-    font-size: 30px
-  }
-  /* Adjust Modal Content to use more screen space */
+  /* 1. Modal Content and Caption Adjustments */
   .modal-content {
       width: 95%;
       margin-top: 5%;
   }
-}
 
+  #caption {
+    /* Create space at the bottom for the buttons */
+    padding: 10px 10px 60px 10px; 
+    font-size: 16px;
+  }
+
+  /* 2. Force Buttons to Fixed Position at the Bottom (CRITICAL FOR MOBILE) */
+  .slider-button {
+    position: fixed !important; /* Anchor relative to the viewport */
+    bottom: 10px !important;    /* Pin to the bottom edge */
+    top: auto !important;       /* Override top: 50% */
+    transform: none !important; /* Clears default translateY(-50%) */
+    font-size: 16px;
+    padding: 8px 12px;
+    z-index: 9999 !important;
+  }
+  
+  /* 3. Horizontal Positioning (Centered at the Bottom) */
+  .slider-button-prev {
+    left: 40%; /* Anchor left of center */
+    right: auto;
+    /* Move LEFT by 100% of its own width + 10px space */
+    transform: translateX(calc(-100% - 10px)) !important; 
+  }
+
+  .slider-button-next {
+    left: 60%; /* Anchor right of center */
+    right: auto;
+    /* Move RIGHT by 10px space */
+    transform: translateX(10px) !important; 
+  }
+  
+  /* 4. Close Button (Fixed to Top-Right Corner) */
+  .close {
+    position: fixed !important;
+    top: 10px !important; 
+    right: 10px !important; 
+    bottom: auto !important; 
+    transform: none !important;
+    z-index: 9999 !important; 
+  }
+}
